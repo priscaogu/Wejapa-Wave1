@@ -3,16 +3,14 @@
 given_name = "William"
 middle_names = "Bradley"
 family_name = "Pitt"
-
+#the len() isused tocalculate length
 name_length = len(given_name + " " + middle_names + " " + family_name
 )
 
 #print (name_length)
 
-
-#todo: calculate how long this name is
-# Now we check to make sure that the name fits within the driving license character limit
-# Nothing you need to do here
+#using the boolean operator <= to check if the length of the name is in the driving/
+# license character limit 
 driving_license_character_limit = 28
 
 print(name_length <= driving_license_character_limit)

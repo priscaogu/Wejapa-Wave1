@@ -4,21 +4,8 @@ rio_population, rio_area = 6453682, 486.5
 san_francisco_pop_density = sf_population/sf_area
 rio_de_janeiro_pop_density = rio_population/rio_area
 
-# Write code that prints True if San Francisco is denser than Rio, and False otherwise
+# using the boolean operator,
 
-
-
-sf_population = 864816
-sf_area = 231.89
-
-rio_population = 6453682
-rio_area = 486.5 
-
-
-sanfrancisco_pop_density = sf_population/sf_area
-
-rio_de_janero_pop_density = rio_population/rio_area
-
-population_density = sanfrancisco_pop_density > rio_de_janero_pop_density
+population_density = san_francisco_pop_density > rio_de_janeiro_pop_density
 
 print(population_density)
